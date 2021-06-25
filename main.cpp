@@ -103,6 +103,59 @@ void tampil(void){
         glVertex3f(-280, 70, 30);
     glEnd();
 
+    //dinding deva
+    glColor3f(0.8,0.8,0.8);
+    glBegin(GL_QUADS);
+        glVertex3f(120, -50, 50);
+        glVertex3f(220, -50, 25);
+        glVertex3f(220, 70, 25);
+        glVertex3f(120, 70, 50);
+    glEnd();
+    glColor3f(0.8,0.8,0.8);
+    glBegin(GL_QUADS);
+        glVertex3f(-30, -50, 50);
+        glVertex3f(120, -50, 50);
+        glVertex3f(120, 70, 50);
+        glVertex3f(-30, 70, 50  );
+    glEnd();
+        glColor3f(0.8,0.8,0.8);
+    glBegin(GL_QUADS);
+        glVertex3f(-280, -50, -60);
+        glVertex3f(-190, -50, -60);
+        glVertex3f(-190, 70, -60);
+        glVertex3f(-280, 70, -60);
+    glEnd();
+    glColor3f(0.8,0.8,0.8);
+    glBegin(GL_QUADS);
+        glVertex3f(-170, -50, -60);
+        glVertex3f(-130, -50, -60);
+        glVertex3f(-130, 70, -60);
+        glVertex3f(-170, 70, -60);
+    glEnd();
+
+    // dinding jek
+    glBegin(GL_QUADS);
+    glColor3f(0.8,0.8,0.8);
+        glVertex3f(220, -50, -30);
+        glVertex3f(120, -50, -50);
+        glVertex3f(120, 70, -50);
+        glVertex3f(220, 70, -30);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0.8,0.8,0.8);
+        glVertex3f(120, -50, -50);
+        glVertex3f(-30, -50, -50);
+        glVertex3f(-30, 70, -50);
+        glVertex3f(120, 70, -50);
+    glEnd();
+    glBegin(GL_QUADS);
+    glColor3f(0.8,0.8,0.8);
+        glVertex3f(-50, -50, -50);
+        glVertex3f(-130, -50, -60);
+        glVertex3f(-130, 70, -60);
+        glVertex3f(-50, 70, -50);
+    glEnd();
+
     glPopMatrix();
     glutSwapBuffers();
 }
