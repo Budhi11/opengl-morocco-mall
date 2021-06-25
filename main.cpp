@@ -158,6 +158,23 @@ void tampil(void){
 
     glPopMatrix();
     glutSwapBuffers();
+
+    // atap
+    glColor3f(0.85,0.85,0.85);
+    glBegin(GL_POLYGON);
+        glVertex3d(220, 70, 25);
+        glVertex3d(120, 70, 50);
+        glVertex3d(-30, 70, 50);
+        glVertex3d(-50, 70, 55);
+        glVertex3d(-180, 70, 55);
+        glVertex3d(-200, 70, 50);
+        glVertex3d(-280, 70, 40);
+        glVertex3d(-280, 70, -60);
+        glVertex3d(-130, 70, -60);
+        glVertex3d(-50, 70, -50);
+        glVertex3d(120, 70, -50);
+        glVertex3d(220, 70, -30);
+    glEnd();
 }
 
 void idle(){
