@@ -4,6 +4,9 @@
 #include <vector>
 #include <cmath>
 
+// budhi kun
+// visi foya misi foya
+
 void init(void);
 void tampil(void);
 void ukuran(int, int);
