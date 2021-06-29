@@ -21,10 +21,6 @@ float yrot = 0.0f;
 float xdiff = 0.0f;
 float ydiff = 0.0f;
 bool mouseDown = false;
-int is_depth;
-
-//Ini alpha
-//Visi foya misi foya
 
 
 int main(int argc, char **argv){
